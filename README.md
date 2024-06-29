@@ -1,6 +1,6 @@
 # Projeto: Introdução ao HTML na Prática
 
-Este projeto faz parte de uma atividade do curso de **Introdução ao HTML** oferecido pela **IO**.
+Este projeto faz parte de uma atividade do curso de **Introdução ao HTML** oferecido pela **DIO**.
 
 ## Descrição
 
@@ -26,4 +26,4 @@ O projeto inclui uma página HTML (`index.html`) que contém:
 
 
 
-Este projeto é uma atividade educacional e faz parte do curso de **Introdução ao HTML** da **IO**.
+Este projeto é uma atividade educacional e faz parte do curso de **Introdução ao HTML** da **DIO**.
