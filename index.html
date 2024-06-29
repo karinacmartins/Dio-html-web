@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML na Prática</title>
+</head>
+<body>
+    <h1 id="topo">Introdução ao HTML na Prática</h1>
+    <hr/>
+    <p>O HyperText Markup Language (HTML) é a espinha dorsal da web, a linguagem fundamental para a criação de páginas da internet. Neste guia, vamos explorar as ferramentas essenciais para trabalhar com HTML, utilizando o inspetor de elementos, entendendo a estrutura básica, conhecendo as principais tags e atributos, e criando textos e listas ordenadas e não ordenadas. Este conteúdo está direcionado para aqueles que desejam uma compreensão prática do HTML.</p>
+    <nav>
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#ferramentas-utilizadas">Ferramentas Utilizadas</a></li>
+            <li><a href="#inspetor-de-elementos">Inspetor de Elementos</a></li>
+            <li><a href="#estrutura-basica-do-html">Estrutura Básica do HTML</a></li>
+            <li><a href="#tags">Falando Sobre Tags</a></li>
+            <li><a href="#atributos-das-tags">Atributos das Tags</a></li>
+            <li><a href="#textos">Textos</a></li>
+            <li><a href="#listas">Lista Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ul>
+    </nav>
+
+  
+        <h2 id="ferramentas-utilizadas">Ferramentas Utilizadas</h2>
+        <p>Para desenvolver e testar código HTML, várias ferramentas podem ser utilizadas. Editores de texto como Visual Studio Code, Sublime Text ou até o bloco de notas são ótimos para escrever o código. Para visualizar e depurar, os navegadores modernos como Google Chrome, Firefox e Edge oferecem ferramentas de desenvolvimento robustas.</p>
+        <small><a href="#topo">Voltar</a></small>
+
+   
+        <h2  id="inspetor-de-elementos">Inspetor de Elementos</h2>
+        <p>O inspetor de elementos é uma funcionalidade crucial disponível nos navegadores modernos. Ele permite visualizar e editar o código HTML e CSS diretamente no navegador, facilitando a identificação de problemas e a realização de ajustes rápidos. Para acessá-lo, basta clicar com o botão direito do mouse sobre um elemento da página e selecionar "Inspecionar" ou "Inspecionar Elemento".</p>
+        <small><a href="#topo">Voltar</a></small>
+ 
+
+    
+        <h2 id="estrutura-basica-do-html">Estrutura Básica do HTML</h2>
+        <p>Uma página HTML é composta por uma estrutura básica que inclui doctype, tags <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>. Aqui está um exemplo:</p>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Minha Página HTML&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bem-vindo ao HTML&lt;/h1&gt;
+    &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        <small><a href="#topo">Voltar</a></small>
+   
+
+ 
+        <h2 id="tags">Falando Sobre Tags</h2>
+        <p>Tags são os blocos de construção do HTML. Elas delimitam o início e o fim de um elemento. A maioria das tags possui uma tag de abertura e uma de fechamento, como <code>&lt;p&gt;</code> para parágrafos:</p>
+        <pre>
+        &lt;p&gt;Este é um parágrafo.&lt;/p&gt;
+        </pre>
+        <p>Existem também tags auto-fechantes, como a tag de imagem:</p>
+        <pre>
+        &lt;img src="caminho/para/imagem.jpg" alt="Descrição da imagem" &gt;
+        </pre>
+        <img src="imagem.jpeg" alt="Descrição da imagem" width="300">
+
+        <p><small><a href="#topo">Voltar</a></small></p>
+   
+
+        <h2 id="atributos-das-tags">Atributos das Tags</h2>
+        <p>Atributos fornecem informações adicionais sobre os elementos. Eles são incluídos dentro da tag de abertura. Alguns atributos comuns são <code>id</code>, <code>class</code>, <code>src</code> e <code>alt</code>:</p>
+        <pre><strong>
+        &lt;a href="https://www.exemplo.com" target="_blank"&gt;Visite nosso site&lt;/a&gt;
+        </pre></strong>
+        <a href="https://www.exemplo.com" target="_blank">Visite nosso site</a>
+        <p>No exemplo acima, <code>href</code> define o destino do link e <code>target="_blank"</code> faz com que o link seja aberto em uma nova aba.</p>
+        <small><a href="#topo">Voltar</a></small>
+ 
+
+    
+        <h2 id="textos">Textos</h2>
+        <p>Para adicionar textos em HTML, utilizamos tags como <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code> para cabeçalhos e <code>&lt;p&gt;</code> para parágrafos. Por exemplo:</p>
+        <pre><strong>
+        &lt;h1&gt;*Este é um cabeçalho&lt;/h1&gt;
+        &lt;p&gt;*Este é um parágrafo com um &lt;strong&gt;texto em negrito&lt;/strong&gt; e um &lt;em&gt;texto em itálico&lt;/em&gt;.&lt;/p&gt;
+        </pre></strong>
+        <h1>*Este é um cabeçalho</h1>
+        <p>*Este é um parágrafo com um <strong>texto em negrito</strong> e um <em>texto em itálico</em>.</p>        
+        <small><a href="#topo">Voltar</a></small>
+   
+
+   
+        <h2 id="listas">Lista Ordenadas e Não Ordenadas</h2>
+        <p>Listas são uma forma prática de organizar informações. As listas ordenadas (<code>&lt;ol&gt;</code>) são numeradas, enquanto as não ordenadas (<code>&lt;ul&gt;</code>) utilizam marcadores.</p>
+        <p>Exemplo de lista ordenada:</p>
+        <pre><strong>
+        &lt;ol&gt;
+        &lt;li&gt;Primeiro item&lt;/li&gt;
+        &lt;li&gt;Segundo item&lt;/li&gt;
+        &lt;li&gt;Terceiro item&lt;/li&gt;
+        &lt;/ol&gt;
+        </pre></strong>
+        <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+        </ol>
+        <p>Exemplo de lista não ordenada:</p>
+        <pre><strong>
+        &lt;ul&gt;
+        &lt;li&gt;Item um&lt;/li&gt;
+        &lt;li&gt;Item dois&lt;/li&gt;
+        &lt;li&gt;Item três&lt;/li&gt;
+        &lt;/ul&gt;
+        </pre></strong>
+        <ul>
+        <li>Item um</li>
+        <li>Item dois</li>
+        <li>Item três</li>
+        </ul>
+        <small><a href="#topo">Voltar</a></small>   
+
+ 
+        <h2 id="referencias">Referências</h2>
+        <p>Para se aprofundar no HTML, recomendo os seguintes recursos:</p>
+        <ul>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
+            <li><a href="https://html.com/" target="_blank">HTML.com</a></li>
+        </ul>
+        <small><a href="#topo">Voltar</a></small>
+        <hr/>
+        <footer>
+            <p>© 2024 - Made with 💜 by <a href="https://github.com/karinacmartins" target="_blank">KM</a>.</p>
+        </footer>
+    
+
+</body>
+</html>
